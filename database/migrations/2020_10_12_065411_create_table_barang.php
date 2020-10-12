@@ -20,7 +20,7 @@ class CreateTableBarang extends Migration
             $table->char('satuan_barang', 20);
             $table->char('pasar', 20);
             $table->char('tanggal_survey', 11);
-            $table->char('status_barang', 50);
+            $table->integer('status_barang');
             $table->char('surveyor', 50);
         });
     }
